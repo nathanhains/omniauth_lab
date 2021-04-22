@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+gem 'thin'
+
 gem 'dotenv-rails'
 
 gem 'omniauth-rails_csrf_protection'
